@@ -1157,6 +1157,140 @@ function lookup(tags) {
 
     else if (tags["building"] == "university") {
       return "University building";
-    }    
+    }
+
+    // Agriculture
+    else if (tags["building"] == "barn") {
+      return "Barn";
+    }
+
+    else if (tags["building"] == "conservatory") {
+      return "Conservatory";
+    }
+
+    else if (tags["building"] == "cowshed") {
+      return "Cowshed";
+    }
+
+    else if (tags["building"] == "farm_auxiliary") {
+      return "Farm building";
+    }
+
+    else if (tags["building"] == "greenhouse") {
+      return "Greenhouse";
+    }
+
+    else if (tags["building"] == "slurry_tank") {
+      return "Slurry tank";
+    }
+
+    else if (tags["building"] == "stable") {
+      return "Stable";
+    }
+
+    else if (tags["building"] == "sty") {
+      return "Sty";
+    }
+
+    else if (tags["building"] == "livestock") {
+      return "Livestock building";
+    }
+
+    // Sport
+    else if (tags["building"] == "grandstand") {
+      return "Grandstand";
+    }
+
+    else if (tags["building"] == "pavilion") {
+      return "Pavilion";
+    }
+
+    else if (tags["building"] == "riding_hall") {
+      return "Riding hall";
+    }
+
+    else if (tags["building"] == "sports_hall") {
+      return "Sports hall";
+    }
+
+    else if (tags["building"] == "stadium") {
+      return "Stadium";
+    }
+
+    // Storage
+    else if (tags["building"] == "allotment_house") {
+      return "Allotment house";
+    }
+
+    else if (tags["building"] == "boathouse") {
+      return "Boathouse";
+    }
+
+    else if (tags["building"] == "hangar") {
+      return "Hangar";
+    }
+
+    else if (tags["building"] == "hut") {
+      return "Hut";
+    }
+
+    else if (tags["building"] == "shed") {
+      return "Shed";
+    }
+
+    // Cars
+    else if (tags["building"] == "carport") {
+      return "Carport";
+    }
+
+    else if (tags["building"] == "garage") {
+      return "Garage";
+    }
+
+    else if (tags["building"] == "garages") {
+      return "Garages";
+    }
+
+    else if (tags["building"] == "parking") {
+      return "Parking building";
+    }
+
+    // Power/technical
+    else if (tags["building"] == "digester") {
+      return "Bioreactor digester";
+    }
+
+    else if (tags["building"] == "service") {
+      return "Service building";
+    }
+
+    else if (tags["building"] == "tech_cab") {
+      return "Technical cabin";
+    }
+
+    else if (tags["building"] == "transformer_tower") {
+      return "Transformer tower";
+    }
+
+    else if (tags["building"] == "water_tower") {
+      return "Water tower";
+    }
+
+    else if (tags["building"] == "storage_tank") {
+      return "Storage tank";
+    }
+
+    else if (tags["building"] == "silo") {
+      return "Silo";
+    }
+
+    // Other
+    else if (tags["building"] == "beach_hut") {
+      return "Beach hut";
+    }
+
+    else if (tags["building"] == "bunker") {
+      return "Bunker";
+    }
   }
 }
