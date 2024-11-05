@@ -45,7 +45,7 @@ body {
 }
 
 .feature-tag {
-  background-color: #3d3846;
+  background-color: #f6f5f4;
 
   padding: 1rem;
 }
@@ -64,5 +64,9 @@ body {
   
   body {
     background-color: #241f31;
+  }
+
+  .feature-tag {
+    background-color: #3d3846;
   }
 }
