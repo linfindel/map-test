@@ -784,5 +784,379 @@ function lookup(tags) {
     else if (tags["barrier"] == "horse_stile") {
       return "Horse stile";
     }
+
+    else if (tags["barrier"] == "jersey_barrier") {
+      return "Jersey barrier";
+    }
+
+    else if (tags["barrier"] == "kissing_gate") {
+      return "Kissing gate";
+    }
+
+    else if (tags["barrier"] == "lift_gate") {
+      return "Lift gate";
+    }
+
+    else if (tags["barrier"] == "log") {
+      return "Log";
+    }
+
+    else if (tags["barrier"] == "motorcycle_barrier") {
+      return "Motorcycle barrier";
+    }
+
+    else if (tags["barrier"] == "rope") {
+      return "Rope barrier";
+    }
+
+    else if (tags["barrier"] == "sally_port") {
+      return "Sally port";
+    }
+
+    else if (tags["barrier"] == "spikes") {
+      return "Spikes";
+    }
+
+    else if (tags["barrier"] == "stile") {
+      return "Stile";
+    }
+
+    else if (tags["barrier"] == "sump_buster") {
+      return "Sump buster";
+    }
+
+    else if (tags["barrier"] == "swing_gate") {
+      return "Swing gate";
+    }
+
+    else if (tags["barrier"] == "toll_booth") {
+      return "Toll gate";
+    }
+
+    else if (tags["barrier"] == "turnstile") {
+      return "Turnstile";
+    }
+
+    else {
+      return "Barrier";
+    }
+  }
+
+  // Boundaries
+  else if (tags["boundary"]) {
+    if (tags["boundary"] == "aboriginal_lands") {
+      return "Indigenous land boundary";
+    }
+    
+    else if (tags["boundary"] == "administrative") {
+      return "Administrative boundary";
+    }
+
+    else if (tags["boundary"] == "border_zone") {
+      return "Border zone";
+    }
+
+    else if (tags["boundary"] == "census") {
+      return "Census-designated boundary";
+    }
+
+    else if (tags["boundary"] == "forest") {
+      return "Forest boundary";
+    }
+
+    else if (tags["boundary"] == "forest_compartment") {
+      return "Forest boundary compartment";
+    }
+
+    else if (tags["boundary"] == "hazard") {
+      return "Hazardous boundary";
+    }
+
+    else if (tags["boundary"] == "health") {
+      return "Healthcare division boundary";
+    }
+
+    else if (tags["boundary"] == "historic") {
+      return "Historic administrative boundary";
+    }
+
+    else if (tags["boundary"] == "local_authority") {
+      return "Local administrative boundary";
+    }
+
+    else if (tags["boundary"] == "low_emission_zone") {
+      return "Low emission zone";
+    }
+
+    else if (tags["boundary"] == "maritime") {
+      return "Maritime boundary";
+    }
+
+    else if (tags["boundary"] == "marker") {
+      return "Boundary marker";
+    }
+
+    else if (tags["boundary"] == "national_park") {
+      return "National park boundary";
+    }
+
+    else if (tags["boundary"] == "place") {
+      return "Boundary";
+    }
+
+    else if (tags["boundary"] == "political") {
+      return "Electoral boundary";
+    }
+
+    else if (tags["boundary"] == "postal_code") {
+      return "Postal boundary";
+    }
+
+    else if (tags["boundary"] == "protected_area") {
+      return "Protected area boundary";
+    }
+
+    else if (tags["boundary"] == "religious_administration") {
+      return "Religious administration boundary";
+    }
+
+    else if (tags["boundary"] == "special_economic_zone") {
+      return "Special economic zone boundary";
+    }
+
+    else if (tags["boundary"] == "statistical") {
+      return "Statistical boundary";
+    }
+
+    else if (tags["boundary"] == "disputed") {
+      return "Disputed boundary";
+    }
+
+    else if (tags["boundary"] == "timezone") {
+      return "Timezone boundary";
+    }
+
+    else {
+      return "Boundary";
+    }
+  }
+
+  // Buildings
+  else if (tags["building"]) {
+    // Accommodation
+    if (tags["building"] == "apartments") {
+      return "Apartments";
+    }
+
+    else if (tags["building"] == "barracks") {
+      return "Barracks";
+    }
+
+    else if (tags["building"] == "bungalow") {
+      return "Bungalow";
+    }
+
+    else if (tags["building"] == "cabin") {
+      return "Cabin";
+    }
+
+    else if (tags["building"] == "detached") {
+      return "Detached house";
+    }
+
+    else if (tags["building"] == "annexe") {
+      return "Annexe";
+    }
+
+    else if (tags["building"] == "dormitory") {
+      return "Dormitory";
+    }
+
+    else if (tags["building"] == "farm") {
+      return "Farmhouse";
+    }
+
+    else if (tags["building"] == "ger") {
+      return "Yurt/ger";
+    }
+
+    else if (tags["building"] == "hotel") {
+      return "Hotel";
+    }
+
+    else if (tags["building"] == "house") {
+      return "House";
+    }
+
+    else if (tags["building"] == "houseboat") {
+      return "Houseboat";
+    }
+
+    else if (tags["building"] == "residential") {
+      return "Residential building";
+    }
+
+    else if (tags["building"] == "semidetached_house") {
+      return "Semi-detached house";
+    }
+
+    else if (tags["building"] == "static_caravan") {
+      return "Static caravan";
+    }
+
+    else if (tags["building"] == "stilt_house") {
+      return "Stilt house";
+    }
+
+    else if (tags["building"] == "terrace") {
+      return "Terraced houses";
+    }
+
+    else if (tags["building"] == "tree_house") {
+      return "Tree house";
+    }
+
+    else if (tags["building"] == "trullo") {
+      return "Trullo";
+    }
+
+    // Commercial
+    else if (tags["building"] == "commercial") {
+      return "Commercial building";
+    }
+
+    else if (tags["building"] == "industrial") {
+      return "Industrial building";
+    }
+
+    else if (tags["building"] == "kiosk") {
+      return "Kiosk";
+    }
+
+    else if (tags["building"] == "office") {
+      return "Office building";
+    }
+
+    else if (tags["building"] == "retail") {
+      return "Retail building";
+    }
+
+    else if (tags["building"] == "supermarket") {
+      return "Supermarket";
+    }
+
+    else if (tags["building"] == "warehouse") {
+      return "Warehouse";
+    }
+
+    // Religious
+    else if (tags["building"] == "religious") {
+      return "Religious building";
+    }
+
+    else if (tags["building"] == "cathedral") {
+      return "Cathedral";
+    }
+
+    else if (tags["building"] == "chapel") {
+      return "Chapel";
+    }
+
+    else if (tags["building"] == "church") {
+      return "Church";
+    }
+
+    else if (tags["building"] == "kingdom_hall") {
+      return "Kingdom Hall";
+    }
+
+    else if (tags["building"] == "monastery") {
+      return "Monastery";
+    }
+
+    else if (tags["building"] == "mosque") {
+      return "Mosque";
+    }
+
+    else if (tags["building"] == "presbytery") {
+      return "Presbytery";
+    }
+
+    else if (tags["building"] == "shrine") {
+      return "Shrine";
+    }
+
+    else if (tags["building"] == "synagogue") {
+      return "Synagogue";
+    }
+
+    else if (tags["building"] == "temple") {
+      return "Temple";
+    }
+
+    // Civic/amenity
+    else if (tags["building"] == "bakehouse") {
+      return "Bakehouse";
+    }
+
+    else if (tags["building"] == "bridge") {
+      return "Bridge";
+    }
+
+    else if (tags["building"] == "civic") {
+      return "Civic building";
+    }
+
+    else if (tags["building"] == "college") {
+      return "College building";
+    }
+
+    else if (tags["building"] == "fire_station") {
+      return "Fire station";
+    }
+
+    else if (tags["building"] == "government") {
+      return "Government building";
+    }
+
+    else if (tags["building"] == "gatehouse") {
+      return "Gatehouse";
+    }
+
+    else if (tags["building"] == "hospital") {
+      return "Hospital building";
+    }
+
+    else if (tags["building"] == "kindergarten") {
+      return "Preschool building";
+    }
+
+    else if (tags["building"] == "museum") {
+      return "Museum";
+    }
+
+    else if (tags["building"] == "public") {
+      return "Public building";
+    }
+
+    else if (tags["building"] == "school") {
+      return "School building";
+    }
+
+    else if (tags["building"] == "toilets") {
+      return "Toilet block";
+    }
+
+    else if (tags["building"] == "train_station") {
+      return "Train station building";
+    }
+
+    else if (tags["building"] == "transportation") {
+      return "Transportation building";
+    }
+
+    else if (tags["building"] == "university") {
+      return "University building";
+    }    
   }
 }
