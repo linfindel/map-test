@@ -1292,5 +1292,464 @@ function lookup(tags) {
     else if (tags["building"] == "bunker") {
       return "Bunker";
     }
+
+    else if (tags["building"] == "castle") {
+      return "Castle";
+    }
+
+    else if (tags["building"] == "construction") {
+      return "Building under construction";
+    }
+
+    else if (tags["building"] == "container") {
+      return "Container used as a building";
+    }
+
+    else if (tags["building"] == "guardhouse") {
+      return "Guardhouse";
+    }
+
+    else if (tags["building"] == "military") {
+      return "Military building";
+    }
+
+    else if (tags["building"] == "outbuilding") {
+      return "Outbuilding";
+    }
+
+    else if (tags["building"] == "pagoda") {
+      return "Pagoda";
+    }
+
+    else if (tags["building"] == "quonset_hut") {
+      return "Quonset hut";
+    }
+
+    else if (tags["building"] == "roof") {
+      return "Roof";
+    }
+
+    else if (tags["building"] == "ruins") {
+      return "Ruins";
+    }
+
+    else if (tags["building"] == "tent") {
+      return "Tent";
+    }
+
+    else if (tags["building"] == "tower") {
+      return "Tower";
+    }
+
+    else if (tags["building"] == "windmill") {
+      return "Windmill";
+    }
+
+    else {
+      return "Building";
+    }
+  }
+
+  // Craft
+  else if (tags["craft"]) {
+    if (tags["craft"] == "agricultural_engines") {
+      return "Agricultural engineer";
+    }
+
+    else if (tags["craft"] == "atelier") {
+      return "Atelier";
+    }
+    
+    else if (tags["craft"] == "bag_repair") {
+      return "Baggage repair shop";
+    }
+
+    else if (tags["craft"] == "bakery") {
+      return "Bakery";
+    }
+
+    else if (tags["craft"] == "basket_maker") {
+      return "Basket weaver";
+    }
+
+    else if (tags["craft"] == "beekeeper") {
+      return "Beekeeper";
+    }
+
+    else if (tags["craft"] == "blacksmith") {
+      return "Blacksmith";
+    }
+
+    else if (tags["craft"] == "boatbuilder") {
+      return "Boat builder";
+    }
+
+    else if (tags["craft"] == "bookbinder") {
+      return "Book binder";
+    }
+
+    else if (tags["craft"] == "brewery") {
+      return "Brewery";
+    }
+
+    else if (tags["craft"] == "builder") {
+      return "Builder";
+    }
+
+    else if (tags["craft"] == "cabinet_maker") {
+      return "Cabinet maker";
+    }
+
+    else if (tags["craft"] == "candlemaker") {
+      return "Candle maker";
+    }
+
+    else if (tags["craft"] == "car_painter") {
+      return "Car painter";
+    }
+
+    else if (tags["craft"] == "carpenter") {
+      return "Carpenter";
+    }
+
+    else if (tags["craft"] == "carpet_cleaner") {
+      return "Carpet cleaner";
+    }
+
+    else if (tags["craft"] == "carpet_layer") {
+      return "Carpet layer";
+    }
+
+    else if (tags["craft"] == "caterer") {
+      return "Caterer";
+    }
+
+    else if (tags["craft"] == "chimney_sweeper") {
+      return "Chimney sweeper";
+    }
+
+    else if (tags["craft"] == "cleaning") {
+      return "Cleaners";
+    }
+
+    else if (tags["craft"] == "clockmaker") {
+      return "Clockmaker";
+    }
+
+    else if (tags["craft"] == "confectionery") {
+      return "Confectionery";
+    }
+
+    else if (tags["craft"] == "cooper") {
+      return "Cooper";
+    }
+
+    else if (tags["craft"] == "dental_technician") {
+      return "Dental technician";
+    }
+
+    else if (tags["craft"] == "distillery") {
+      return "Distillery";
+    }
+
+    else if (tags["craft"] == "door_construction") {
+      return "Doormaker";
+    }
+
+    else if (tags["craft"] == "dressmaker") {
+      return "Dressmaker";
+    }
+
+    else if (tags["craft"] == "electrician") {
+      return "Electrician";
+    }
+
+    else if (tags["craft"] == "electronics_repair") {
+      return "Electronics repair shop";
+    }
+
+    else if (tags["craft"] == "elevator") {
+      return "Elevator installer";
+    }
+
+    else if (tags["craft"] == "embroiderer") {
+      return "Embroiderer";
+    }
+
+    else if (tags["craft"] == "engraver") {
+      return "Engraver";
+    }
+
+    else if (tags["craft"] == "fence_maker") {
+      return "Fence maker";
+    }
+
+    else if (tags["craft"] == "floorer") {
+      return "Floorer";
+    }
+
+    else if (tags["craft"] == "gardener") {
+      return "Gardener";
+    }
+
+    else if (tags["craft"] == "glassblower") {
+      return "Glassblower";
+    }
+
+    else if (tags["craft"] == "glaziery") {
+      return "Glaziery";
+    }
+
+    else if (tags["craft"] == "goldsmith") {
+      return "Goldsmith";
+    }
+
+    else if (tags["craft"] == "grinding_mill") {
+      return "Grinding mill";
+    }
+
+    else if (tags["craft"] == "handicraft") {
+      return "Handicraft";
+    }
+
+    else if (tags["craft"] == "hvac") {
+      return "HVAC system designer";
+    }
+
+    else if (tags["craft"] == "insulation") {
+      return "Insulator";
+    }
+
+    else if (tags["craft"] == "interior_decorator") {
+      return "Interior decorator";
+    }
+
+    else if (tags["craft"] == "interior_work") {
+      return "Interior builders";
+    }
+
+    else if (tags["craft"] == "jeweller") {
+      return "Jeweller";
+    }
+
+    else if (tags["craft"] == "joiner") {
+      return "Joiner";
+    }
+
+    else if (tags["craft"] == "key_cutter") {
+      return "Key cutter";
+    }
+
+    else if (tags["craft"] == "laboratory") {
+      return "Laboratory";
+    }
+
+    else if (tags["craft"] == "lapidary") {
+      return "Gemcutter";
+    }
+
+    else if (tags["craft"] == "leather") {
+      return "Leatherworker";
+    }
+
+    else if (tags["craft"] == "locksmith") {
+      return "Locksmith";
+    }
+
+    else if (tags["craft"] == "luthier") {
+      return "Luthier";
+    }
+
+    else if (tags["craft"] == "metal_construction") {
+      return "Metal construction office";
+    }
+
+    else if (tags["craft"] == "mint") {
+      return "Coin mint";
+    }
+
+    else if (tags["craft"] == "musical_instrument") {
+      return "Musical instrument craftsperson";
+    }
+
+    else if (tags["craft"] == "oil_mill") {
+      return "Oil mill";
+    }
+
+    else if (tags["craft"] == "optician") {
+      return "Optician";
+    }
+
+    else if (tags["craft"] == "organ_builder") {
+      return "Organ builder";
+    }
+
+    else if (tags["craft"] == "painter") {
+      return "Painter/decorator";
+    }
+
+    else if (tags["craft"] == "paperhanger") {
+      return "Paperhanger";
+    }
+
+    else if (tags["craft"] == "parquet_layer") {
+      return "Parquet layer";
+    }
+
+    else if (tags["craft"] == "paver") {
+      return "Paver";
+    }
+
+    else if (tags["craft"] == "pest_control") {
+      return "Pest control";
+    }
+
+    else if (tags["craft"] == "photographer") {
+      return "Photographer";
+    }
+
+    else if (tags["craft"] == "photographic_laboratory") {
+      return "Photographic laboratory";
+    }
+
+    else if (tags["craft"] == "photovoltaic") {
+      return "Solar panel installer";
+    }
+
+    else if (tags["craft"] == "piano_tuner") {
+      return "Piano tuner";
+    }
+
+    else if (tags["craft"] == "plasterer") {
+      return "Plasterer";
+    }
+
+    else if (tags["craft"] == "plumber") {
+      return "Plumber";
+    }
+
+    else if (tags["craft"] == "pottery") {
+      return "Potter";
+    }
+
+    else if (tags["craft"] == "printer") {
+      return "Printer";
+    }
+
+    else if (tags["craft"] == "printmaker") {
+      return "Printmaker";
+    }
+
+    else if (tags["craft"] == "restoration") {
+      return "Restorer";
+    }
+
+    else if (tags["craft"] == "rigger") {
+      return "Rigger";
+    }
+
+    else if (tags["craft"] == "roofer") {
+      return "Roofer";
+    }
+
+    else if (tags["craft"] == "saddler") {
+      return "Saddler";
+    }
+
+    else if (tags["craft"] == "sailmaker") {
+      return "Sailmaker";
+    }
+
+    else if (tags["craft"] == "sawmill") {
+      return "Sawmill";
+    }
+
+    else if (tags["craft"] == "scaffolder") {
+      return "Scaffolder";
+    }
+
+    else if (tags["craft"] == "sculptor") {
+      return "Sculptor";
+    }
+
+    else if (tags["craft"] == "shoemaker") {
+      return "Shoemaker";
+    }
+
+    else if (tags["craft"] == "signmaker") {
+      return "Signmaker";
+    }
+
+    else if (tags["craft"] == "stand_builder") {
+      return "Stand builder";
+    }
+
+    else if (tags["craft"] == "stonemason") {
+      return "Stonemason";
+    }
+
+    else if (tags["craft"] == "stove_fitter") {
+      return "Stove fitter";
+    }
+
+    else if (tags["craft"] == "sun_protection") {
+      return "Sun protection shop";
+    }
+
+    else if (tags["craft"] == "tailor") {
+      return "Tailor";
+    }
+
+    else if (tags["craft"] == "tatami") {
+      return "Tatami artisan";
+    }
+
+    else if (tags["craft"] == "tiler") {
+      return "Tiler";
+    }
+
+    else if (tags["craft"] == "tinsmith") {
+      return "Tinsmith";
+    }
+
+    else if (tags["craft"] == "toolmaker") {
+      return "Toolmaker";
+    }
+
+    else if (tags["craft"] == "turner") {
+      return "Turner";
+    }
+
+    else if (tags["craft"] == "upholsterer") {
+      return "Upholsterer";
+    }
+
+    else if (tags["craft"] == "watchmaker") {
+      return "Watchmaker";
+    }
+
+    else if (tags["craft"] == "water_well_drilling") {
+      return "Water well driller";
+    }
+
+    else if (tags["craft"] == "weaver") {
+      return "Weaver";
+    }
+
+    else if (tags["craft"] == "welder") {
+      return "Welder";
+    }
+
+    else if (tags["craft"] == "window_construction") {
+      return "Window builder";
+    }
+
+    else if (tags["craft"] == "winery") {
+      return "Winery";
+    }
+
+    else {
+      return "Craftsperson";
+    }
   }
 }

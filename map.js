@@ -27,6 +27,11 @@ function getFeatureTags(feature) {
       
       document.getElementById("name").innerText = tagList["name"];
       document.getElementById("type").innerText = lookup(tagList);
+
+      if (document.getElementById("name").innerText == "undefined") {
+        document.getElementById("name").innerText = document.getElementById("type").innerText;
+        document.getElementById("type").innerText = "";
+      }
     }
     
     else {
