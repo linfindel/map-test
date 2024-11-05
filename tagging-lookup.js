@@ -351,8 +351,438 @@ function lookup(tags) {
       return "Dentist";
     }
 
-    else if (tags["amenity"] == "cafe") {
-      return "Café";
+    else if (tags["amenity"] == "doctors") {
+      return "Doctor";
+    }
+
+    else if (tags["amenity"] == "hospital") {
+      return "Hospital";
+    }
+
+    else if (tags["amenity"] == "nursing_home") {
+      return "Nursing home";
+    }
+
+    else if (tags["amenity"] == "pharmacy") {
+      return "Pharmacy";
+    }
+
+    else if (tags["amenity"] == "social_facility") {
+      return "Social facility";
+    }
+
+    else if (tags["amenity"] == "veterinary") {
+      return "Veterinary";
+    }
+
+    // Entertainment, Arts & Culture
+    else if (tags["amenity"] == "arts_centre") {
+      return "Arts centre";
+    }
+
+    else if (tags["amenity"] == "brothel") {
+      return "Brothel";
+    }
+
+    else if (tags["amenity"] == "casino") {
+      return "Casino";
+    }
+
+    else if (tags["amenity"] == "cinema") {
+      return "Cinema";
+    }
+
+    else if (tags["amenity"] == "community_centre") {
+      return "Community centre";
+    }
+
+    else if (tags["amenity"] == "conference_centre") {
+      return "Conference centre";
+    }
+
+    else if (tags["amenity"] == "events_venue") {
+      return "Events venue";
+    }
+
+    else if (tags["amenity"] == "exhibition_centre") {
+      return "Exihibition centre";
+    }
+
+    else if (tags["amenity"] == "fountain") {
+      return "Fountain";
+    }
+
+    else if (tags["amenity"] == "gambling") {
+      return "Gambling centre";
+    }
+
+    else if (tags["amenity"] == "love_hotel") {
+      return "Love hotel";
+    }
+
+    else if (tags["amenity"] == "music_venue") {
+      return "Music venue";
+    }
+
+    else if (tags["amenity"] == "nightclub") {
+      return "Nightclub";
+    }
+
+    else if (tags["amenity"] == "planetarium") {
+      return "Planetarium";
+    }
+
+    else if (tags["amenity"] == "public_bookcase") {
+      return "Public bookcase";
+    }
+
+    else if (tags["amenity"] == "social_centre") {
+      return "Community centre";
+    }
+
+    else if (tags["amenity"] == "stage") {
+      return "Stage";
+    }
+
+    else if (tags["amenity"] == "stripclub") {
+      return "Strip club";
+    }
+
+    else if (tags["amenity"] == "studio") {
+      return "Studio";
+    }
+
+    else if (tags["amenity"] == "swingerclub") {
+      return "Swinger club";
+    }
+
+    else if (tags["amenity"] == "theatre") {
+      return "Theatre";
+    }
+
+    // Public service
+    else if (tags["amenity"] == "courthouse") {
+      return "Courthouse";
+    }
+
+    else if (tags["amenity"] == "fire_station") {
+      return "Fire station";
+    }
+
+    else if (tags["amenity"] == "police") {
+      return "Police station";
+    }
+
+    else if (tags["amenity"] == "post_box") {
+      return "Post box";
+    }
+
+    else if (tags["amenity"] == "post_depot") {
+      return "Post depot";
+    }
+
+    else if (tags["amenity"] == "post_office") {
+      return "Post office";
+    }
+
+    else if (tags["amenity"] == "prison") {
+      return "Prison";
+    }
+
+    else if (tags["amenity"] == "ranger_station") {
+      return "Ranger station";
+    }
+
+    else if (tags["amenity"] == "townhall") {
+      return "Town hall";
+    }
+
+    // Facilities
+    else if (tags["amenity"] == "bbq") {
+      return "Barbeque";
+    }
+
+    else if (tags["amenity"] == "bench") {
+      return "Bench";
+    }
+
+    else if (tags["amenity"] == "dog_toilet") {
+      return "Dog toilet";
+    }
+
+    else if (tags["amenity"] == "dressing_room") {
+      return "Changing rooms";
+    }
+
+    else if (tags["amenity"] == "drinking_water") {
+      return "Drinking water";
+    }
+
+    else if (tags["amenity"] == "give_box") {
+      return "Give box";
+    }
+
+    else if (tags["amenity"] == "lounge") {
+      return "Lounge";
+    }
+
+    else if (tags["amenity"] == "mailroom") {
+      return " Mailroom";
+    }
+
+    else if (tags["amenity"] == "parcel_locker") {
+      return "Parcel locker";
+    }
+
+    else if (tags["amenity"] == "shelter") {
+      return "Shelter";
+    }
+
+    else if (tags["amenity"] == "shower") {
+      return "Shower";
+    }
+
+    else if (tags["amenity"] == "Telephone") {
+      return "Telephone";
+    }
+
+    else if (tags["amenity"] == "toilets") {
+      return "Public toilets";
+    }
+
+    else if (tags["amenity"] == "water_point") {
+      return "Drinking water";
+    }
+
+    else if (tags["amenity"] == "watering_place") {
+      return "Animal watering place";
+    }
+
+    // Waste management
+    else if (tags["amenity"] == "sanitary_dump_station") {
+      return "Sanitary dump station";
+    }
+
+    else if (tags["amenity"] == "recycling") {
+      return "Recycling";
+    }
+
+    else if (tags["amenity"] == "waste_basket") {
+      return "Rubbish bin";
+    }
+
+    else if (tags["amenity"] == "waste_disposal") {
+      return "Dumpster";
+    }
+
+    else if (tags["amenity"] == "waste_transfer_station") {
+      return "Waste transfer station";
+    }
+
+    // Others
+    else if (tags["amenity"] == "animal_boarding") {
+      return "Animal boarding facility";
+    }
+
+    else if (tags["amenity"] == "animal_breeding") {
+      return "Animal breeding facility";
+    }
+
+    else if (tags["amenity"] == "animal_shelter") {
+      return "Animal shelter";
+    }
+
+    else if (tags["amenity"] == "animal_training") {
+      return "Animal training facility";
+    }
+
+    else if (tags["amenity"] == "baking_oven") {
+      return "Public baking oven";
+    }
+
+    else if (tags["amenity"] == "clock") {
+      return "Clock";
+    }
+
+    else if (tags["amenity"] == "crematorium") {
+      return "Crematorium";
+    }
+
+    else if (tags["amenity"] == "dive_centre") {
+      return "Dive centre";
+    }
+
+    else if (tags["amenity"] == "funeral_hall") {
+      return "Funeral hall";
+    }
+
+    else if (tags["amenity"] == "grave_yard") {
+      return "Graveyard";
+    }
+
+    else if (tags["amenity"] == "hunting_stand") {
+      return "Hunting stand";
+    }
+
+    else if (tags["amenity"] == "internet_cafe") {
+      return "Internet café";
+    }
+
+    else if (tags["amenity"] == "kitchen") {
+      return "Public kitchen";
+    }
+
+    else if (tags["amenity"] == "kneipp_water_cure") {
+      return "Kneipp facility";
+    }
+
+    else if (tags["amenity"] == "lounger") {
+      return "Lounger";
+    }
+
+    else if (tags["amenity"] == "marketplace") {
+      return "Marketplace";
+    }
+
+    else if (tags["amenity"] == "monastery") {
+      return "Monastery";
+    }
+
+    else if (tags["amenity"] == "mortuary") {
+      return "Mortuary";
+    }
+
+    else if (tags["amenity"] == "photo_booth") {
+      return "Photo booth";
+    }
+
+    else if (tags["amenity"] == "place_of_mourning") {
+      return "Place of mourning";
+    }
+
+    else if (tags["amenity"] == "place_of_worship") {
+      return "Place of worship";
+    }
+
+    else if (tags["amenity"] == "public_bath") {
+      return "Public bath";
+    }
+
+    else if (tags["amenity"] == "public_building") {
+      return "Public building";
+    }
+
+    else if (tags["amenity"] == "refugee_site") {
+      return "Refugee camp";
+    }
+
+    else if (tags["amenity"] == "vending_machine") {
+      return "Vending machine";
     }
   }
-} 
+
+  // Barriers
+  else if (tags["barrier"]) {
+    // Linear barriers
+    if (tags["barrier"] == "cable_barrier") {
+      return "Cable barrier";
+    }
+
+    else if (tags["barrier"] == "city_wall") {
+      return "City wall";
+    }
+
+    else if (tags["barrier"] == "ditch") {
+      return "Ditch";
+    }
+
+    else if (tags["barrier"] == "fence") {
+      return "Fence";
+    }
+
+    else if (tags["barrier"] == "guard_rail") {
+      return "Guard rail";
+    }
+
+    else if (tags["barrier"] == "handrail") {
+      return "Handrail";
+    }
+
+    else if (tags["barrier"] == "hedge") {
+      return "Hedge";
+    }
+
+    else if (tags["barrier"] == "kerb") {
+      return "Kerb";
+    }
+
+    else if (tags["barrier"] == "retaining_wall") {
+      return "Retaining wall";
+    }
+
+    else if (tags["barrier"] == "wall") {
+      return "Wall";
+    }
+
+    // Access control on highways
+    else if (tags["barrier"] == "block") {
+      return "Block";
+    }
+
+    else if (tags["barrier"] == "bollard") {
+      return "Bollard";
+    }
+
+    else if (tags["barrier"] == "border-control") {
+      return "Border control";
+    }
+
+    else if (tags["barrier"] == "bump_gate") {
+      return "Bump gate";
+    }
+
+    else if (tags["barrier"] == "bus_trap") {
+      return "Bus trap";
+    }
+
+    else if (tags["barrier"] == "cattle_grid") {
+      return "Cattle grid";
+    }
+
+    else if (tags["barrier"] == "chain") {
+      return "Chain";
+    }
+
+    else if (tags["barrier"] == "cycle_barrier") {
+      return "Cycle barrier";
+    }
+
+    else if (tags["barrier"] == "debris") {
+      return "Debris";
+    }
+
+    else if (tags["barrier"] == "entrance") {
+      return "Entrance";
+    }
+
+    else if (tags["barrier"] == "full-height_turnstile") {
+      return "Full-height turnstile";
+    }
+
+    else if (tags["barrier"] == "gate") {
+      return "Gate";
+    }
+
+    else if (tags["barrier"] == "hampshire_gate") {
+      return "Hampshire gate";
+    }
+
+    else if (tags["barrier"] == "height_restrictor") {
+      return "Height restrictor";
+    }
+
+    else if (tags["barrier"] == "horse_stile") {
+      return "Horse stile";
+    }
+  }
+}
