@@ -1752,4 +1752,172 @@ function lookup(tags) {
       return "Craftsperson";
     }
   }
+
+  // Emergency
+  if (tags["emergency"]) {
+    // Medical
+    if (tags["emergency"] == "ambulance_station") {
+      return "Ambulance station";
+    }
+
+    else if (tags["emergency"] == "defibrillator") {
+      return "Defibrillator";
+    }
+
+    else if (tags["emergency"] == "landing_site") {
+      return "Emergency helicopter landing site";
+    }
+
+    else if (tags["emergency"] == "emergency_ward_entrance") {
+      return "Emergency ward entrance";
+    }
+
+    // Fire
+    else if (tags["emergency"] == "fire_service_inlet") {
+      return "Fire service inlet";
+    }
+
+    else if (tags["emergency"] == "fire_alarm_box") {
+      return "Fire alarm box";
+    }
+
+    else if (tags["emergency"] == "fire_extinguisher") {
+      return "Fire extinguisher";
+    }
+
+    else if (tags["emergency"] == "fire_hose") {
+      return "Fire hose";
+    }
+
+    else if (tags["emergency"] == "fire_hydrant") {
+      return "Fire hydrant";
+    }
+
+    else if (tags["emergency"] == "water_tank") {
+      return "Emergency water tank";
+    }
+
+    else if (tags["emergency"] == "suction_point") {
+      return "Emergency suction point";
+    }
+
+    // Lifeguards
+    else if (tags["emergency"] == "lifeguard") {
+      return "Lifeguard";
+    }
+
+    else if (tags["emergency"] == "life_ring") {
+      return "Life ring";
+    }
+
+    // Assembly point
+    else if (tags["emergency"] == "assembly_point") {
+      return "Emergency assembly point";
+    }
+
+    // Other
+    else if (tags["emergency"] == "phone") {
+      return "Emergency phone";
+    }
+
+    else if (tags["emergency"] == "siren") {
+      return "Emergency siren";
+    }
+
+    else if (tags["emergency"] == "drinking_water") {
+      return "Emergency drinking water";
+    }
+  }
+
+  // Lifeguards
+  else if (tags["lifeguard"] == "tower") {
+    return "Lifeguard tower";
+  }
+
+  // Geological
+  else if (tags["geological"]) {
+    if (tags["geological"] == "moraine") {
+      return "Moraine";
+    }
+  
+    else if (tags["geological"] == "outcrop") {
+      return "Outcrop";
+    }
+  
+    else if (tags["geological"] == "volcanic_caldera_rim") {
+      return "Volcanic caldera rim";
+    }
+
+    else if (tags["geological"] == "fault") {
+      return "Faultline";
+    }
+
+    else if (tags["geological"] == "fold") {
+      return "Geological fold";
+    }
+
+    else if (tags["geological"] == "paleontological_site") {
+      return "Paleontological site";
+    }
+
+    else if (tags["geological"] == "volcanic_lava_field") {
+      return "Volcanic lava field";
+    }
+
+    else if (tags["geological"] == "volcanic_vent") {
+      return "Volcanic vent";
+    }
+
+    else if (tags["geological"] == "glacial_erratic") {
+      return "Glacial erratic";
+    }
+
+    else if (tags["geological"] == "rock_glacier") {
+      return "Rock glacier";
+    }
+
+    else if (tags["geological"] == "giants_kettle") {
+      return "Giant's kettle";
+    }
+
+    else if (tags["geological"] == "meteor_crater") {
+      return "Meteor crater";
+    }
+
+    else if (tags["geological"] == "hoodoo") {
+      return "Hoodoo";
+    }
+
+    else if (tags["geological"] == "columnar_jointing") {
+      return "Columnar jointing";
+    }
+
+    else if (tags["geological"] == "dyke") {
+      return "Dyke";
+    }
+
+    else if (tags["geological"] == "monocline") {
+      return "Monocline";
+    }
+
+    else if (tags["geological"] == "tor") {
+      return "Tor";
+    }
+
+    else if (tags["geological"] == "unconformity") {
+      return "Unconformity";
+    }
+
+    else if (tags["geological"] == "cone") {
+      return "Geological cone";
+    }
+
+    else if (tags["geological"] == "sinkhole") {
+      return "Sinkhole";
+    }
+
+    else if (tags["geological"] == "pingo") {
+      return "Pingo";
+    }
+  }
 }
