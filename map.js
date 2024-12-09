@@ -2,8 +2,8 @@ const map = new maplibregl.Map({
   container: 'map',
   style:
       'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
-  center: [-96, 37.8],
-  zoom: 3
+  center: [-4.705, 50.475],
+  zoom: 15
 });
 
 map.on('mousemove', (e) => {
@@ -11,11 +11,7 @@ map.on('mousemove', (e) => {
 
   // Limit the number of properties we're displaying for
   // legibility and performance
-  const displayProperties = [
-      'properties',
-      'id',
-      'layer'
-  ];
+  const displayProperties = ['properties'];
 
   const displayFeatures = features.map((feat) => {
       const displayFeat = {};
