@@ -9,9 +9,7 @@ const map = new maplibregl.Map({
 map.on('mousemove', (e) => {
   const features = map.queryRenderedFeatures(e.point);
 
-  // Limit the number of properties we're displaying for
-  // legibility and performance
-  const displayProperties = ['properties'];
+  const displayProperties = ['id', 'geometry'];
 
   const displayFeatures = features.map((feat) => {
       const displayFeat = {};
@@ -20,6 +18,9 @@ map.on('mousemove', (e) => {
       });
       return displayFeat;
   });
+
+  const geometryType = displayFeatures[0]["geometry"];
+  console.log(geometryType);
 
   document.getElementById('features').innerHTML = JSON.stringify(
       displayFeatures,
