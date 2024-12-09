@@ -30,8 +30,6 @@ map.on('mousemove', (e) => {
     geometryType = "way";
   }
 
-  console.log(geometryType);
-
   fetch(`https://api.openstreetmap.org/api/0.6/${geometryType}/${id}/full.json`)
   .then((response) => {
     if (!response.ok) {
@@ -46,23 +44,17 @@ map.on('mousemove', (e) => {
     elements.forEach(element => {
       if (element.tags) {
         tags = element.tags;
-        console.log(tags);
         if (tags.name) {
           document.getElementById("name").innerText = tags.name;
+          document.getElementById("type").innerText = lookupFeature(tags);
         }
 
         else {
-          document.getElementById("name").innerText = "";
+          document.getElementById("name").innerText = lookupFeature(tags);
+          document.getElementById("type").innerText = "";
         }
       }
     });
   })
   .catch((error) => console.error("Unable to fetch data:", error));
-  
-
-  document.getElementById('features').innerHTML = JSON.stringify(
-      displayFeatures,
-      null,
-      2
-  );
 });
